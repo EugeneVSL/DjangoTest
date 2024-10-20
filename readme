@@ -1,7 +1,7 @@
-django-admin startproject [project-name] - create a project skeleton 
-python manage.py runserver - run the dev server
-python manage.py startapp [app-name] - create a new app 
-python manage.py migrate - looks at the INSTALLED_APPS setting and creates any necessary database 
+django-admin startproject [project-name]        - create a project skeleton 
+python manage.py runserver                      - run the dev server
+python manage.py startapp [app-name]            - create a new app 
+python manage.py migrate                        - looks at the INSTALLED_APPS setting and creates any necessary database 
 tables according to the database settings in your mysite/settings.py file and the database migrations 
 shipped with the app
 
@@ -9,3 +9,6 @@ To make changes in the model layer:
   Change your models (in models.py).
   Run python manage.py makemigrations to create migrations for those changes
   Run python manage.py migrate to apply those changes to the database.
+
+python manage.py shell - to run the shell
+python manage.py createsuperuser - to create a superuser
