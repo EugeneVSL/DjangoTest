@@ -1,0 +1,2 @@
+To run the deve server: python manage.py runserver
+To create a new app, run: python manage.py startapp [app_name] in the root folder 
